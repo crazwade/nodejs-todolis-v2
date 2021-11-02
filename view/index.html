@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/sass.css">
+    <title>login page</title>
+</head>
+
+<body>
+    <header>
+        <h1>Login page</h1>
+    </header>
+    <div class="main">
+        <form>
+            <div class="input-group">
+                <label>Account  </label>
+                <input type="text" name="account" id="account" />
+            </div>
+            <div class="input-group">
+                <label>Password  </label>
+                <input type="pqssword" name="pwd" id="pwd" />
+                <div id="error"> </div>
+            </div>
+            <div class="btn-group">
+                <button type="button" onclick="login()" class="submit">登入</button>
+                <hr>
+                <button type="button" class="href" onclick="location.href='/register'">註冊</button>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <h3>footer</h3>
+    </footer>
+</body>
+
+<script type="text/javascript" src="/js/all.js"></script>
+
+</html>

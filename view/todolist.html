@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/sass.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>todolist page</title>
+</head>
+
+<body>
+    <header class="todo_header">
+        <div></div>
+        <h1 id="header"></h1>
+        <button onclick="signOut()">登出</button>
+    </header>
+    <div class="app">
+        <div class="head">
+            <input type="text" placeholder="請輸入 Todo List" id="todoContent" required>
+            <button onclick="newAdd()">Add Todo</button>
+        </div>
+        <div class="todolist" id="notdone">
+            <!-- innerHTML here -->
+        </div>
+        <div class="done_status">
+            <p id="done_count">已經完成事項 (${num})</p>
+            <button id="done_zoom" onclick="showhide()">Hide</button>
+        </div>
+        <div class="todolist" id="done">
+            <!-- innerHTML here -->
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="/js/all.js"></script>
+
+</html>

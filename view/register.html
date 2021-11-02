@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/sass.css">
+    <title>register page</title>
+</head>
+
+<body>
+    <header>
+        <h1>Regitster page</h1>
+    </header>
+    <div class="main">
+        <form action="/user/register" method="POST">
+            <div class="input-group">
+                <label>Create an account  </label>
+                <input type="text" name="account" id="account">
+            </div>
+            <div class="input-group">
+                <label>Your password  </label>
+                <input type="pqssword" name="pwd" id="pwd">
+            </div>
+            <div class="btn-group">
+                <button type="submit" class="submit">註冊</button>
+                <hr>
+                <button type="button" class="href" onclick="location.href='/'">已有帳號</button>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <h3>footer</h3>
+    </footer>
+</body>
+
+</html>
