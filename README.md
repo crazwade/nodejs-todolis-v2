@@ -1,5 +1,5 @@
 # Todolist 規格書
-[TOC]
+
 # 1. 系統功能架構
 使用Nodejs+Express架構的「待辦清單」
 
